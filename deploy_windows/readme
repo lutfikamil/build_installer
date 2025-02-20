@@ -1,0 +1,12 @@
+baris nama file bersumber dari aplikasi procmon64, dengan filter plugins dan proces-name di aktifkan
+1. jalankan procmon64
+setting filter 
+* proces-name ->in ->Aplikasi.exe -> include 
+* Path ->contain ->plugins ->include
+* simpan 
+2. jalankan aplikasi
+* jika sudah terihat plugins atau dll
+* klik tab Event ->Event ->tab proces ->Copy All
+* Paste ke spreadsheet ambil baris nama file dan jalur file berada.
+3. Ekseusi deply-windos.bat
+* ke2 file tersebuut harus dalam satu folder
