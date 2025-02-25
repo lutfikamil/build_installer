@@ -1,0 +1,19 @@
+Cara membuat installer.
+Isi folder ini
+1. deploy_linux.sh
+2. install.sh
+3. README
+4. wrapper.sh
+5. icon.sh
+
+Yang di butuhkan:
+1. Qt5/vscode
+2. makeself
+3. strace
+
+Cara prose:
+1. (QT) Build aplkasi dari source setelah selesai,
+    Salin hasil build file executable, file.so dari hasil kompil (semua yang ada di build/bin).
+	Biasanya semua tersimpan di folder build/bin. Salin folder bin taruh di sini (bersama deploy_linux.sh).
+2. Eksekusi deploy_linux.sh
+3. Selesai
